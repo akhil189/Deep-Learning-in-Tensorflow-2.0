@@ -9,7 +9,7 @@
 - [Flowers Data](https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz)
 - 3670 images belonging to 5 classes.
 ## Architeture:
-
+- Mobilenet v2 (except last layer) + Fully Connected layer with 5 output nodes. 
 ## Results:
 
 Model | Optimizer | Learning_rate | steps | Batch_size | Loss | Accuracy 
